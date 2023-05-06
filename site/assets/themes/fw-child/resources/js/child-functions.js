@@ -44,10 +44,7 @@ var child_logging = true
 				// fire scenarios app
 				$(document).rp_scenarios()
 				
-			} else if (
-				$('body').attr('id') == 'page-risks' ||
-				$('body').attr('id') == 'page-risques'
-			) {
+			} else if ($('body').attr('id') == 'page-risks') {
 				
 				// force current classes on nav item
 				// (url doesn't match button href because it's a overlay toggle)
@@ -156,10 +153,7 @@ var child_logging = true
 		// FAQ
 		//
 		
-		if (
-			$('body').attr('id') == 'page-frequently-asked-questions' ||
-			$('body').attr('id') == 'page-foire-aux-questions'
-		) {
+		if ($('body').attr('id') == 'page-frequently-asked-questions') {
 			
 			$('main .fw-column').first().find('.block-type-text').each(function() {
 				
