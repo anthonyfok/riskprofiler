@@ -75,37 +75,37 @@ var grades, color_ramp
 						columns: [
 							{
 								code: 'Wood',
-								name: rp.wood,
+								name: 'Wood',
 								value: [0]
 							},
 							{
 								code: 'Concrete',
-								name: rp.concrete,
+								name: 'Concrete',
 								value: [0]
 							},
 							{
 								code: 'Steel',
-								name: rp.steel,
+								name: 'Steel',
 								value: [0]
 							},
 							{
 								code: 'URMasonry',
-								name: rp.urmasonry,
+								name: 'Unreinforced Masonry',
 								value: [0]
 							},
 							{
 								code: 'RMasonry',
-								name: rp.rmasonry,
+								name: 'Reinforced Masonry',
 								value: [0]
 							},
 							{
 								code: 'Precast',
-								name: rp.precast,
+								name: 'Precast',
 								value: [0]
 							},
 							{
 								code: 'Manufactured',
-								name: rp.manufactured,
+								name: 'Manufactured',
 								value: [0]
 							}
 						]
@@ -119,192 +119,192 @@ var grades, color_ramp
 						columns: [
 							{
 								code: 'W1',
-								name: rp.W1,
+								name: 'Wood, Single Family',
 								value: [0]
 							},
 							{
 								code: 'W2',
-								name: rp.W2,
+								name: 'Wood, Multi Family',
 								value: [0]
 							},
 							{
 								code: 'W3',
-								name: rp.W3,
+								name: 'Wood, Commercial and Industrial',
 								value: [0]
 							},
 							{
 								code: 'W4',
-								name: rp.W4,
+								name: 'Wood, Single Family with Cripple Wall or Subfloor',
 								value: [0]
 							},
 							{
 								code: 'S1L',
-								name: rp.S1L,
+								name: 'Steel Moment Frame (Low-Rise)',
 								value: [0]
 							},
 							{
 								code: 'S1M',
-								name: rp.S1M,
+								name: 'Steel Moment Frame (Mid-Rise)',
 								value: [0]
 							},
 							{
 								code: 'S1H',
-								name: rp.S1H,
+								name: 'Steel Moment Frame (High-Rise)',
 								value: [0]
 							},
 							{
 								code: 'S2L',
-								name: rp.S2L,
+								name: 'Steel Braced (Low-Rise)',
 								value: [0]
 							},
 							{
 								code: 'S2M',
-								name: rp.S2M,
+								name: 'Steel Braced (Mid-Rise)',
 								value: [0]
 							},
 							{
 								code: 'S2H',
-								name: rp.S2H,
+								name: 'Steel Braced (High-Rise)',
 								value: [0]
 							},
 							{
 								code: 'S3',
-								name: rp.S3,
+								name: 'Steel Light Frame',
 								value: [0]
 							},
 							{
 								code: 'S4L',
-								name: rp.S4L,
+								name: 'Steel Frame with Cast-in-Place Concrete Shear Walls (Low-Rise)',
 								value: [0]
 							},
 							{
 								code: 'S4M',
-								name: rp.S4M,
+								name: 'Steel Frame with Cast-in-Place Concrete Shear Walls (Mid-Rise)',
 								value: [0]
 							},
 							{
 								code: 'S4H',
-								name: rp.S4H,
+								name: 'Steel Frame with Cast-in-Place Concrete Shear Walls (High-Rise)',
 								value: [0]
 							},
 							{
 								code: 'S5L',
-								name: rp.S5L,
+								name: 'Steel Frame with Unreinforced Masonry Infill Walls (Low-Rise)',
 								value: [0]
 							},
 							{
 								code: 'S5M',
-								name: rp.S5M,
+								name: 'Steel Frame with Unreinforced Masonry Infill Walls (Mid-Rise)',
 								value: [0]
 							},
 							{
 								code: 'S5H',
-								name: rp.S5H,
+								name: 'Steel Frame with Unreinforced Masonry Infill Walls (High-Rise)',
 								value: [0]
 							},
 							{
 								code: 'C1L',
-								name: rp.C1L,
+								name: 'Concrete Moment (Low-Rise)',
 								value: [0]
 							},
 							{
 								code: 'C1M',
-								name: rp.C1M,
+								name: 'Concrete Moment (Mid-Rise)',
 								value: [0]
 							},
 							{
 								code: 'C1H',
-								name: rp.C1H,
+								name: 'Concrete Moment (High-Rise)',
 								value: [0]
 							},
 							{
 								code: 'C2L',
-								name: rp.C2L,
+								name: 'Concrete Shear Walls (Low-Rise)',
 								value: [0]
 							},
 							{
 								code: 'C2M',
-								name: rp.C2M,
+								name: 'Concrete Shear Walls (Mid-Rise)',
 								value: [0]
 							},
 							{
 								code: 'C2H',
-								name: rp.C2H,
+								name: 'Concrete Shear Walls (High-Rise)',
 								value: [0]
 							},
 							{
 								code: 'C3L',
-								name: rp.C3L,
+								name: 'Concrete Frame with Unreinforced Masonry Infill Walls (Low-Rise)',
 								value: [0]
 							},
 							{
 								code: 'C3M',
-								name: rp.C3M,
+								name: 'Concrete Frame with Unreinforced Masonry Infill Walls (Mid-Rise)',
 								value: [0]
 							},
 							{
 								code: 'C3H',
-								name: rp.C3H,
+								name: 'Concrete Frame with Unreinforced Masonry Infill Walls (High-Rise)',
 								value: [0]
 							},
 							{
 								code: 'PC1',
-								name: rp.PC1,
+								name: 'Precast Concrete Tilt-up Walls',
 								value: [0]
 							},
 							{
 								code: 'PC2L',
-								name: rp.PC2L,
+								name: 'Precast Concrete Frames with Concrete Shear Walls (Low-Rise)',
 								value: [0]
 							},
 							{
 								code: 'PC2M',
-								name: rp.PC2M,
+								name: 'Precast Concrete Frames with Concrete Shear Walls (Mid-Rise)',
 								value: [0]
 							},
 							{
 								code: 'PC2H',
-								name: rp.PC2H,
+								name: 'Precast Concrete Frames with Concrete Shear Walls (High-Rise)',
 								value: [0]
 							},
 							{
 								code: 'RM1L',
-								name: rp.RM1L,
+								name: 'Reinforced Masonry Bearing Walls with Wood or Metal Deck Diaphragms (Low-Rise)',
 								value: [0]
 							},
 							{
 								code: 'RM1M',
-								name: rp.RM1M,
+								name: 'Reinforced Masonry Bearing Walls with Wood or Metal Deck Diaphragms (Mid-Rise)',
 								value: [0]
 							},
 							{
 								code: 'RM2L',
-								name: rp.RM2L,
+								name: 'Reinforced Masonry Bearing Walls with Precast Concrete Diaphragms (Low-Rise)',
 								value: [0]
 							},
 							{
 								code: 'RM2M',
-								name: rp.RM2M,
+								name: 'Reinforced Masonry Bearing Walls with Precast Concrete Diaphragms (Mid-Rise)',
 								value: [0]
 							},
 							{
 								code: 'RM2H',
-								name: rp.RM2H,
+								name: 'Reinforced Masonry Bearing Walls with Precast Concrete Diaphragms (High-Rise)',
 								value: [0]
 							},
 							{
 								code: 'URML',
-								name: rp.URML,
+								name: 'Unreinforced Masonry Bearing Walls (Low-Rise)',
 								value: [0]
 							},
 							{
 								code: 'URMM',
-								name: rp.URMM,
+								name: 'Unreinforced Masonry Bearing Walls (Mid-Rise)',
 								value: [0]
 							},
 							{
 								code: 'MH',
-								name: rp.MH,
+								name: 'Mobile Homes',
 								value: [0]
 							}
 						],
@@ -318,22 +318,22 @@ var grades, color_ramp
 						columns: [
 							{
 								code: 'PC',
-								name: rp.PC,
+								name: 'Pre-Code',
 								value: [0]
 							},
 							{
 								code: 'LC',
-								name: rp.LC,
+								name: 'Low Code',
 								value: [0]
 							},
 							{
 								code: 'MC',
-								name: rp.MC,
+								name: 'Moderate Code',
 								value: [0]
 							},
 							{
 								code: 'HC',
-								name: rp.HC,
+								name: 'High Code',
 								value: [0]
 							}
 						]
@@ -347,37 +347,37 @@ var grades, color_ramp
 						columns: [
 							{
 								code: 'RES',
-								name: rp.RES,
+								name: 'Residential',
 								value: [0]
 							},
 							{
 								code: 'COM',
-								name: rp.COM,
+								name: 'Commercial',
 								value: [0]
 							},
 							{
 								code: 'IND',
-								name: rp.IND,
+								name: 'Industrial',
 								value: [0]
 							},
 							{
 								code: 'REL',
-								name: rp.REL,
+								name: 'Religion/Non-Profit',
 								value: [0]
 							},
 							{
 								code: 'EDU',
-								name: rp.EDU,
+								name: 'Education',
 								value: [0]
 							},
 							{
 								code: 'GOV',
-								name: rp.GOV,
+								name: 'Government',
 								value: [0]
 							},
 							{
 								code: 'AGR',
-								name: rp.AGR,
+								name: 'Agriculture',
 								value: [0]
 							}
 						]
@@ -391,172 +391,172 @@ var grades, color_ramp
 						columns: [
 							{
 								code: 'RES1',
-								name: rp.RES1,
+								name: 'Single Family Dwelling',
 								value: [0]
 							},
 							{
 								code: 'RES2',
-								name: rp.RES2,
+								name: 'Mobile Home',
 								value: [0]
 							},
 							{
 								code: 'RES3',
-								name: rp.RES3,
+								name: 'Multi Family Dwelling',
 								value: [0]
 							},
 							{
 								code: 'RES3A',
-								name: rp.RES3A,
+								name: 'Duplex',
 								value: [0]
 							},
 							{
 								code: 'RES3B',
-								name: rp.RES3B,
+								name: '3–4 Units',
 								value: [0]
 							},
 							{
 								code: 'RES3C',
-								name: rp.RES3C,
+								name: '5–9 Units',
 								value: [0]
 							},
 							{
 								code: 'RES3D',
-								name: rp.RES3D,
+								name: '10–19 Units',
 								value: [0]
 							},
 							{
 								code: 'RES3E',
-								name: rp.RES3E,
+								name: '20–49 Units',
 								value: [0]
 							},
 							{
 								code: 'RES3F',
-								name: rp.RES3F,
+								name: '50+ Units',
 								value: [0]
 							},
 							{
 								code: 'RES4',
-								name: rp.RES4,
+								name: 'Temporary Lodging',
 								value: [0]
 							},
 							{
 								code: 'RES5',
-								name: rp.RES5,
+								name: 'Institutional Dormitory',
 								value: [0]
 							},
 							{
 								code: 'RES6',
-								name: rp.RES6,
+								name: 'Nursing Home',
 								value: [0]
 							},
 							{
 								code: 'COM1',
-								name: rp.COM1,
+								name: 'Retail Trade',
 								value: [0]
 							},
 							{
 								code: 'COM2',
-								name: rp.COM2,
+								name: 'Wholesale Trade',
 								value: [0]
 							},
 							{
 								code: 'COM3',
-								name: rp.COM3,
+								name: 'Personal and Repair Services',
 								value: [0]
 							},
 							{
 								code: 'COM4',
-								name: rp.COM4,
+								name: 'Professional/Technical Services',
 								value: [0]
 							},
 							{
 								code: 'COM5',
-								name: rp.COM5,
+								name: 'Banks',
 								value: [0]
 							},
 							{
 								code: 'COM6',
-								name: rp.COM6,
+								name: 'Hospital',
 								value: [0]
 							},
 							{
 								code: 'COM7',
-								name: rp.COM7,
+								name: 'Medical Office/Clinic',
 								value: [0]
 							},
 							{
 								code: 'COM8',
-								name: rp.COM8,
+								name: 'Entertainment and Recreation',
 								value: [0]
 							},
 							{
 								code: 'COM9',
-								name: rp.COM9,
+								name: 'Theaters',
 								value: [0]
 							},
 							{
 								code: 'COM10',
-								name: rp.COM10,
+								name: 'Parking',
 								value: [0]
 							},
 							{
 								code: 'IND1',
-								name: rp.IND1,
+								name: 'Heavy Industrial',
 								value: [0]
 							},
 							{
 								code: 'IND2',
-								name: rp.IND2,
+								name: 'Light Industrial',
 								value: [0]
 							},
 							{
 								code: 'IND3',
-								name: rp.IND3,
+								name: 'Food/Drugs/Chemicals',
 								value: [0]
 							},
 							{
 								code: 'IND4',
-								name: rp.IND4,
+								name: 'Metals/Minerals Processing',
 								value: [0]
 							},
 							{
 								code: 'IND5',
-								name: rp.IND5,
+								name: 'High Technology',
 								value: [0]
 							},
 							{
 								code: 'IND6',
-								name: rp.IND6,
+								name: 'Construction',
 								value: [0]
 							},
 							{
 								code: 'REL1',
-								name: rp.REL1,
+								name: 'Church/Non-Profit',
 								value: [0]
 							},
 							{
 								code: 'EDU1',
-								name: rp.EDU1,
+								name: 'Grade Schools',
 								value: [0]
 							},
 							{
 								code: 'EDU2',
-								name: rp.EDU2,
+								name: 'Colleges/Universities',
 								value: [0]
 							},
 							{
 								code: 'GOV1',
-								name: rp.GOV1,
+								name: 'General Services',
 								value: [0]
 							},
 							{
 								code: 'GOV2',
-								name: rp.GOV2,
+								name: 'Emergency Response',
 								value: [0]
 							},
 							{
 								code: 'AGR1',
-								name: rp.AGR1,
+								name: 'Agriculture',
 								value: [0]
 							}
 						]
@@ -696,7 +696,7 @@ var grades, color_ramp
 			// SETUP UX STUFF
 			//
 
-			$('#spinner-progress').text(rp.initializing_map)
+			$('#spinner-progress').text('Initializing map')
 
 			$('#data-modal').modal({
 				show: false
@@ -864,13 +864,12 @@ var grades, color_ramp
 
 			// BASEMAP
 
-			var current_year = new Date().getFullYear()
-			var basemap_URL = 'https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}&region=CA'
-			var basemap_att = 'Map data © ' + current_year + ' Google | <a href="https://www.google.com/intl/en_ca/help/terms_maps/" target="_blank">Terms of use</a>'
+			var basemap_URL = 'https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}&region=CA',
+					basemap_att = 'Map data © 2022 Google | <a href="https://www.google.com/intl/en_ca/help/terms_maps/" target="_blank">Terms of use</a>'
 
 			if ($('body').hasClass('lang-fr')) {
 				basemap_URL += '&hl=fr-CA'
-				basemap_att = 'Données cartographiques © ' + current_year + ' Google | <a href="https://www.google.com/intl/fr_ca/help/terms_maps/" target="_blank">Conditions d’utilisation</a>'
+				basemap_att = 'Données cartographiques © 2022 Google | <a href="https://www.google.com/intl/fr_ca/help/terms_maps/" target="_blank">Conditions d’utilisation</a>'
 			} else {
 				basemap_URL += '&hl=en'
 			}
@@ -1167,14 +1166,6 @@ var grades, color_ramp
 					enabled: false
 				}
 			})
-			
-			if ($('body').hasClass('lang-fr')) {
-				Highcharts.setOptions({
-					lang: {
-						numericSymbols: [" k", " M", " G", " T", " P", " E"]
-					}
-				})
-			}
 
 			// each chart element
 
@@ -1972,7 +1963,7 @@ var grades, color_ramp
 				
 				plugin.set_indicator({
 					key: 'sH_PGA', 
-					label: rp.peak_ground_acceleration, 
+					label: 'Peak Ground Acceleration, in units of g', 
 					retrofit: false, 
 					aggregation: { 
 						'1km': { rounding: 2, decimals: 2 }, 
@@ -2207,7 +2198,7 @@ var grades, color_ramp
 			var plugin_settings = plugin.options
 			var map = plugin_settings.map.object
 
-			$('#spinner-progress').text(rp.retrieving_scenario_data)
+			$('#spinner-progress').text('Retrieving scenario data')
 
 			// console.log('get max vals', plugin_settings.indicator.max)
 
@@ -2280,7 +2271,7 @@ var grades, color_ramp
 
 							console.log('calculated max values', plugin_settings.indicator.max)
 
-							$('#spinner-progress').text(rp.loading_visualization)
+							$('#spinner-progress').text('Loading visualization')
 
 							plugin.get_tiles()
 
@@ -2689,9 +2680,9 @@ var grades, color_ramp
 // 				rounded_val = plugin._round(properties[indicator_key], aggregation['rounding']).toLocaleString(undefined, { maximumFractionDigits: aggregation['decimals'] })
 // 
 // 				if (aggregation['rounding'] == -9) {
-// 					rounded_val += ' ' + rp.billion
+// 					rounded_val += ' billion'
 // 				} else if (aggregation['rounding'] == -6) {
-// 					rounded_val += ' ' + rp.million
+// 					rounded_val += ' million'
 // 				}
 // 
 // 			}
@@ -3042,55 +3033,55 @@ var grades, color_ramp
 				
 				// X.X thousand
 				
-				rounded_num = plugin._round(num, -3).toFixed(1).replace(/[.,]0$/, '') + ' ' + rp.thousand
+				rounded_num = plugin._round(num, -3).toFixed(1).replace(/[.,]0$/, '') + ' thousand'
 				
 			} else if (num < 100000) {
 				
 				// XX thousand
 				
-				rounded_num = plugin._round(num, -3).toFixed(0) + ' ' + rp.thousand
+				rounded_num = plugin._round(num, -3).toFixed(0) + ' thousand'
 				
 			} else if (num < 1000000) {
 				
 				// XX0 thousand
 				
-				rounded_num = (plugin._round(num, -4).toFixed(0) * 10) + ' ' + rp.thousand
+				rounded_num = (plugin._round(num, -4).toFixed(0) * 10) + ' thousand'
 				
 			} else if (num < 10000000) {
 				
 				// X.X million
 				
-				rounded_num = plugin._round(num, -6).toFixed(1).replace(/[.,]0$/, '') + ' ' + rp.million
+				rounded_num = plugin._round(num, -6).toFixed(1).replace(/[.,]0$/, '') + ' million'
 				
 			} else if (num < 100000000) {
 				
 				// XX million
 				
-				rounded_num = plugin._round(num, -6).toFixed(0) + ' ' + rp.million
+				rounded_num = plugin._round(num, -6).toFixed(0) + ' million'
 				
 			} else if (num < 1000000000) {
 				
 				// XX0 million
 				
-				rounded_num = (plugin._round(num, -7).toFixed(0) * 10) + ' ' + rp.million
+				rounded_num = (plugin._round(num, -7).toFixed(0) * 10) + ' million'
 				
 			} else if (num < 10000000000) {
 				
 				// X.X billion
 				
-				rounded_num = plugin._round(num, -9).toFixed(1).replace(/[.,]0$/, '') + ' ' + rp.billion
+				rounded_num = plugin._round(num, -9).toFixed(1).replace(/[.,]0$/, '') + ' billion'
 				
 			} else if (num < 100000000000) {
 				
 				// XX billion
 				
-				rounded_num = plugin._round(num, -9).toFixed(0) + ' ' + rp.billion
+				rounded_num = plugin._round(num, -9).toFixed(0) + ' billion'
 				
 			} else if (num < 1000000000000) {
 				
 				// XX0 billion
 				
-				rounded_num = (plugin._round(num, -10).toFixed(0) * 10) + ' ' + rp.billion
+				rounded_num = (plugin._round(num, -10).toFixed(0) * 10) + ' billion'
 				
 			}
 			
